@@ -1,0 +1,33 @@
+{
+  "name": "proviso/omnipay-pinextended",
+  "type": "library",
+  "description": "Pin gateway for Omnipay payment processing library",
+  "keywords": [
+    "pin",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "purchase"
+  ],
+  "homepage": "https://github.com/proviso/omnipay-pinextended",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric So",
+      "email": "eric.so@proviso.com.au"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\PinExtended\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  }
+}
